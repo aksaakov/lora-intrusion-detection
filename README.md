@@ -1,4 +1,4 @@
-## ESP32 LoRa Host
+# ESP32 LoRa Host
 
 This project is the host side of a two-way LoRa communication system built with Heltec ESP32 v3 LoRa boards.
 The host is intended to run on a Raspberry Pi (or similar) and acts as a bridge between LoRa devices and Home Assistant via MQTT.
@@ -8,8 +8,6 @@ Reliable two-way communication with a standalone remote ESP32 LoRa device.
 MQTT integration for motion detection, alarm control, and battery reporting.
 Automatic re-arm logic (configurable from Home Assistant).
 Simple serial logging for debugging.
-
-**Features**
 
 ## Features
 
@@ -29,7 +27,7 @@ Simple serial logging for debugging.
 
 ______________
 
-## ESP32 LoRa Remote
+# ESP32 LoRa Remote
 
 The goal is to establish communication between a host esp32 (in house) and a remote (off grid) esp32.
 This project is the remote device in a two-way LoRa communication system using Heltec ESP32 v3 boards.
