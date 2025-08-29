@@ -22,9 +22,9 @@ Simple serial logging for debugging.
 
 ## Hardware Requirements
 
-Host: Raspberry Pi (any model with USB), running Linux.
-LoRa board: Heltec ESP32 v3 LoRa module (connected to Pi over USB).
-Remote device: Another Heltec ESP32 v3 (and other components specified in the remote repo).
+- Host: Raspberry Pi (any model with USB), running Linux.
+- LoRa board: Heltec ESP32 v3 LoRa module (connected to Pi over USB).
+- Remote device: Another Heltec ESP32 v3 (and other components specified in the remote repo).
 ).
 
 ______________
@@ -61,6 +61,7 @@ The remote is responsible for detecting motion, reporting battery status, and ac
 | Battery ADC   | GPIO2     | Reads battery voltage.  |
 
 Arduino framework (PlatformIO or Arduino IDE).
+
 Heltec ESP32 LoRa libraries.
 ______________
 
